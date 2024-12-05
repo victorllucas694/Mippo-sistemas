@@ -1,5 +1,6 @@
 import { Button } from "@mui/material";
 import { HeaderSectionWrapper } from "./styles";
+import image from 'world-global-cartography-globalization-earth-international-concept.jpg'
 
 function HeaderSection() {
   return (
@@ -28,7 +29,7 @@ function HeaderSection() {
       </Button>
       <div className="img-data">
         <img
-          src="https://img.freepik.com/fotos-gratis/world-global-cartography-globalization-earth-international-concept_53876-128043.jpg?t=st=1733078485~exp=1733082085~hmac=1ccc8d1bcc0845a1748f15648ded8ff075915db93859290c881b69ba9e2e1044&w=1800"
+          src={image}
           alt=""
         />
       </div>
