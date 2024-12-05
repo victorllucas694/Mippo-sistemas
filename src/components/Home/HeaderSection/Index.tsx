@@ -1,6 +1,6 @@
 import { Button } from "@mui/material";
 import { HeaderSectionWrapper } from "./styles";
-import image from 'world-global-cartography-globalization-earth-international-concept.jpg'
+import image from './world-global-cartography-globalization-earth-international-concept.jpg'
 
 function HeaderSection() {
   return (
